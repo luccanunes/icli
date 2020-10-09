@@ -1,8 +1,13 @@
 # icli
  A instagram API wrapper command line tool, made in C++
-
+ 
 ## Installation
-To install icli, all you have to do is clone this repo and compile `icli.cpp`, or [download the executable directly](https://mega.nz/file/3FkiUCrY#xPukt0BvlLVs17hXJQx9rlBUFPYMV29g1iCnryg97AU).
+To install icli, all you have to do is clone this repo and compile `icli.cpp`, or [download the executable directly](https://mega.nz/file/3FkiUCrY#xPukt0BvlLVs17hXJQx9rlBUFPYMV29g1iCnryg97AU) (recommended).
+
+## Requirements
+- If you chose to compile the .cpp file by your self, you'll need the following libraries:
+   * cpr - used for making http requests
+   * nlohmann-json - used for parsing JSON data into map-like structures
 
 ## Usage
 After installing icli, to start using it you simply have to open the terminal of your choice in the directory that `icli.exe` is in, and starting typing the commands. 
