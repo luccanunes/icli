@@ -21,4 +21,4 @@
 | `is_joined_recently`                  | was that profile created recently (`bool`) |
 | `profile_pic_url_hd`                  | profile image URL (`std:string`) |
 
-> If a data field does not apply to the user, the API returns `null`
+> If a data field does not apply to the user, the API returns `null`. <br /> For example, since `icli luccanunes is_business_account` returns `false`, `icli luccanunes business_email` returns `null`
