@@ -24,6 +24,8 @@ After installing icli, to start using it you simply have to open the terminal of
 | `id`                                  | user id (`std::string`) |
 | `full_name`                           | user's full name (`std::string`) |
 | `biography`                           | user's profile description/biography (`std::string`) |
+| `followed_by`                         | followers count (`int`) |
+| `follows`                             | follow count (`int`) |
 | `is_private`                          | is that profile private (`bool`) |
 | `is_verified`                         | is that profile verified (`bool`) |
 | `is_business_account`                 | is that profile a business account (`bool`) |
