@@ -10,7 +10,20 @@ To install icli, all you have to do is clone this repo and compile `icli.cpp`, o
    * nlohmann-json - used for parsing JSON data into map-like structures
 
 ## Usage
-After installing icli, to start using it you simply have to open the terminal of your choice in the directory that `icli.exe` is in, and starting typing the commands. 
+After installing icli, you have to make sure you add it to your Path environment variable. <br />
+The details on how to do this are platform specific, so I'll  teach you how to do it for Windows here, and include a link with the instructions for other systems.
+
+### Windows
+- First of all, open up the start menu and search for "My computer". <br />
+- Right click on it, and choose "Properties". <br />
+- Go to "Advanced system settings". <br />
+- Make sure you're in the "Advanced" tab and click "Environment variables" <br />
+- Now just look for "Path", click "Edit" and then "New". <br />
+- Simply paste the directory you installed icli.
+
+### [Linux](https://opensource.com/article/17/6/set-path-linux)
+
+### [Mac](https://www.cyberciti.biz/faq/appleosx-bash-unix-change-set-path-environment-variable/)
 
 ## Commands
 |  Name                                 | Function |
